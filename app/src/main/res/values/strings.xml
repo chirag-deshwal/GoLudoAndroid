@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">GoLudo</string>
+
+    <!-- PREFERENCES -->
+    <string name="pref_account_title">Account</string>
+    <string name="pref_account_username_title">Username</string>
+    <string name="pref_account_username_hint">coolUser1</string>
+    <string name="pref_account_username_incorrect">Enter a valid username and try again.</string>
+    <string name="pref_account_username_correct">Your username was saved.</string>
+    <string name="pref_app_extra">Extra</string>
+    <string name="pref_app_info">Info</string>
+    <string name="pref_app_donate_title">Donate</string>
+    <string name="pref_app_donate_summary">Found this app useful?</string>
+    <string name="pref_app_donate_link">https://paypal.me/samtalview</string>
+    <string name="pref_app_intro_title">Setup</string>
+    <string name="pref_app_intro_summary">Show how to play a game again.</string>
+    <string name="pref_app_repo_title">Go!Ludo at Github</string>
+    <string name="pref_app_repo_link">https://github.com/Ghor3d/AlView</string>
+    <string name="pref_app_rate_title">Rate this app!</string>
+    <string name="pref_app_rate_link">https://play.google.com/store/apps/details?id=samt.AlView</string>
+    <string name="pref_app_ver_title">Version</string>
+    <string name="pref_app_ver">1.0</string>
+
+</resources>

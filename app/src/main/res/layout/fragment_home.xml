@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/wallpaper3"
+    tools:context="samt.al.goludo.MainActivity"
+    android:clickable="true">
+
+
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/statstitle"
+            android:text="YOUR STATS"
+            android:fontFamily="@font/sans_regular"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"/>
+
+        <ImageButton
+            android:src="@drawable/settings"
+            android:id="@+id/smallfab"
+            android:layout_gravity="end|top"
+            android:layout_margin="11dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round" />
+    </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/round"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/round"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:textColor="@android:color/white"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/sans_bold"
+                    android:id="@+id/winstext"
+                    android:textSize="110sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="WIN(S)"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/round"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@android:color/white"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/sans_bold"
+                    android:id="@+id/lossestext"
+                    android:textSize="110sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="LOSS(ES)"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/round"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/averanktext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="#4"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/sans_bold"
+                    android:textColor="@android:color/white"
+                    android:textSize="80sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="AVERAGE&#10;RANKING"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/round"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15'"
+                android:textAlignment="center"
+                android:fontFamily="@font/sans_bold"
+                android:textColor="@android:color/white"
+                android:id="@+id/avetimetext"
+                android:textSize="80sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AVERAGE PLAY TIME"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+</FrameLayout>

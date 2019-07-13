@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_account_title"
+        android:key="pref_account_settings">
+        <EditTextPreference
+            android:key="pref_account_username"
+            android:hint="@string/pref_account_username_hint"
+            android:title="@string/pref_account_username_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_app_extra"
+        android:key="pref_app_settings_extra">
+        <Preference android:title="@string/pref_app_donate_title"
+            android:summary="@string/pref_app_donate_summary">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="@string/pref_app_donate_link" />
+        </Preference>
+        <Preference android:title="@string/pref_app_rate_title">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="@string/pref_app_rate_link" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_app_info"
+        android:key="pref_app_settings_info">
+        <Preference android:title="@string/pref_app_repo_title">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="@string/pref_app_repo_link" />
+        </Preference>
+        <Preference
+            android:title="@string/pref_app_ver_title"
+            android:summary="@string/pref_app_ver"/>
+    </PreferenceCategory>
+</PreferenceScreen>
